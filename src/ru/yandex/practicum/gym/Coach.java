@@ -26,12 +26,15 @@ public class Coach {
     public int hashCode() {
         return Objects.hash(surname, name, middleName);
     }
+
     public String getSurname() {
         return surname;
     }
+
     public String getName() {
         return name;
     }
+
     public String getMiddleName() {
         return middleName;
     }
