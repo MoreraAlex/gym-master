@@ -4,11 +4,8 @@ import java.util.Objects;
 
 public class Coach {
 
-    //фамилия
     private String surname;
-    //имя
     private String name;
-    //отчество
     private String middleName;
 
     public Coach(String surname, String name, String middleName) {
@@ -29,15 +26,12 @@ public class Coach {
     public int hashCode() {
         return Objects.hash(surname, name, middleName);
     }
-
     public String getSurname() {
         return surname;
     }
-
     public String getName() {
         return name;
     }
-
     public String getMiddleName() {
         return middleName;
     }
